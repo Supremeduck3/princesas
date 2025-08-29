@@ -22,7 +22,7 @@ app.get("/princesas/id/:id", (req, res)=>{
         res.status(200).json(princesaPorId)
     }else{
         res.status(404).json({
-            erro: "Esse animal não foi encontrado"
+            erro: `Nenhuma princesa com esse ${id} foi encontrada`
         });
     }
 });
