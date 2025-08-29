@@ -1,4 +1,4 @@
-const princesas = [
+export default [
   {
     id: 1,
     nome: "Branca de Neve",
